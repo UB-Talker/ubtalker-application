@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="UBTalker.Components.GazeLetterKeyboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UBTalker.Components"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <local:GazeButton Grid.Column="0" Text="Q" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="1" Text="W" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="2" Text="E" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="3" Text="R" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="4" Text="T" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="5" Text="Y" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="6" Text="U" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="7" Text="I" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="8" Text="O" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="9" Text="P" InternalFontSize="80" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <local:GazeButton Grid.Column="0" Text="A" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="1" Text="S" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="2" Text="D" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="3" Text="F" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="4" Text="G" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="5" Text="H" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="6" Text="J" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="7" Text="K" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="8" Text="L" InternalFontSize="80" />
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <local:GazeButton Grid.Column="0" Text="Z" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="1" Text="X" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="2" Text="C" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="3" Text="V" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="4" Text="B" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="5" Text="N" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="6" Text="M" InternalFontSize="80" />
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <local:GazeButton Grid.Column="0" Text="SHIFT" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="1" Text="CAPS" InternalFontSize="80" />
+            <local:GazeButton Grid.Column="2" Text="SPACE" InternalFontSize="80" />
+        </Grid>
+    </Grid>
+</UserControl>
